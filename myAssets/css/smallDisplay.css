@@ -1,0 +1,16 @@
+/* for smartphones */
+
+@media screen and (max-width: 785px) {
+
+    #mainTitle h1 {
+        font-size: 3rem;
+    }
+    #carBookingForm input[type="text"] {
+        min-width: 100px;
+        max-width: 280px;
+    }
+
+    #subscribeForm input[type="text"] {
+        max-width: 200px;
+    }
+}

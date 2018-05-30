@@ -1,0 +1,175 @@
+/* css thats comon for both large and small displays */
+body,
+html {
+    overflow-x: hidden;
+}
+.colorRed {
+    color: #F1352C;
+}
+
+#mainTitle {
+    margin: 70px 0 50px;
+}
+
+#carTypes {
+    background-color: #303A43;
+    padding: 35px 0 30px;
+    margin-top: -25px;
+}
+
+#carTypes div,
+#carTypesHeading h1 {
+    color: #DDDDDD;
+}
+
+#carTypes .title {
+    font-weight: 400
+}
+
+.carTypeIcon img {
+    background-color: #ffffff;
+    border-radius: 25%;
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    /* padding-top: 10px; */
+}
+
+.carTypeDescription {
+    padding: 0 25px 0 25px;
+}
+
+.carTypeButton {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: #F1352C;
+    padding: 10px 0 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.carTypeButton:hover {
+    background-color: #ffffff;
+    color: #F1352C;
+    /* box-shadow: 0 5px 15px rgba(145, 92, 182, .4); */
+}
+
+.carType:hover {
+    box-shadow: 0 5px 15px rgba(231, 49, 49, 0.4);
+}
+
+.carTypeButton:hover i {
+    color: #F1352C;
+}
+
+#carBookingForm {
+    padding: 25px 0 25px;
+    background-color: #303A43;
+}
+
+#carBookingForm .label {
+    color: #ffffff;
+}
+
+#carBookingForm h1 {
+    color: #ffffff;
+}
+
+#carBookingForm .termsAndConditions a {
+    color: #F1352C;
+}
+
+.carBookingFormImg img {
+    width: 350px;
+    height: 350px;
+}
+
+#carsOffered {
+    margin-bottom: 85px;
+}
+
+ul.carsOfferedList {
+    list-style: none
+}
+
+ul.carsOfferedList li {
+    margin: -20px 0;
+}
+
+ul.carsOfferedList li::before {
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    font-size: 30px;
+    margin-left: -1em
+}
+
+#subscribe{
+    background-color: #3B4453;
+}
+
+#subscribeHeading h1, h2 {
+    color: #DDDDDD;
+}
+
+#subscribeForm {
+    margin-top: 25px;
+}
+
+#subscribeForm input[type="text"] {
+    /* max-width: 250px; */
+    background-color: rgba(221, 221, 221, 0.61);
+}
+
+#subscribeForm input[type="text"]::-webkit-input-placeholder {
+    color: #ffffff
+}
+
+#subscribeForm input[type="text"]::-moz-placeholder {
+    color: #ffffff
+}
+
+#subscribeForm input[type="text"]:-ms-input-placeholder {
+    color: #ffffff
+}
+
+#subscribeForm input[type="text"]:-moz-placeholder {
+    color: #ffffff
+}
+
+#subscribeForm button {
+    background-color: #F1352C;
+}
+
+#callUs {
+    margin-top: -24px;
+    background-color: #737D81;
+    color: #ffffff;
+}
+
+.callUsColumn{
+        display: flex;
+        justify-content: center;
+}
+
+#callUsLeftText {
+    font-size: 2rem;
+}
+
+#callUsNumber {
+    font-size: 4rem;
+}
+
+#callUsRightText {
+    font-size: 2rem;
+}
+
+#myFooter {
+    margin-top: 85px;
+}
+
+#myFooter h1 {
+    font-size: 50px;
+}
